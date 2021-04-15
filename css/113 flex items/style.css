@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: antiquewhite;
+    padding: 15px;
+    
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    //flex-direction: row-reverse;
+    //flex-direction: column;
+    //flex-direction: row;
+    //flex-direction: column-reverse;
+    //flex-wrap: wrap;
+    //flex-wrap: wrap-reverse;
+    //justify-content: center;
+    //justify-content: flex-start;
+    //justify-content: space-between;
+    //justify-content: space-evenly;
+    //align-items: stretch;
+    //align-items: center;
+    //align-items: flex-start;
+    //align-items: flex-end;
+    //align-items: baseline; /*yazının altına ögre hizalama işlemi yapar*/
+    
+}
+.item{
+    margin: 10px;
+    padding: 40px;    
+    background-color: aqua;
+    font-size: 20px;
+  
+}
+.i1{
+    align-self: stretch; /*içinde bulundugu container kısmının boyutuna eşitlenmesini sağlar*/
+    order: 6;
+    flex: 1;
+}
+.i2{
+    height: 200px;
+    order: 5;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+.i3{
+    align-self: flex-start;
+    order: -3;
+}
+.i4{
+    align-self: flex-end;
+    order: -1;
+}

@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    
+    height: 500px;
+    background-color: antiquewhite;
+    //align-items: flex-start;
+    //align-items: center;
+    //justify-content: center;
+}
+.item{
+    background-color: chocolate;
+    padding: 30px;
+    font-size: 25px;
+    //margin: auto;
+    //margin-left: auto;
+    
+    //margin-top: auto;
+    //margin-left: auto;
+    //margin-right: auto;
+    //margin-bottom: auto;
+    
+}
+.i1{
+    //margin: auto;
+    
+     margin-right: auto;
+    margin-top: auto;
+}
+.i2{
+    //margin: auto;
+   
+    margin-left: auto;
+    margin-bottom: auto;
+}

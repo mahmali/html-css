@@ -1,0 +1,100 @@
+/*pseudo element (::)*/
+p::first-line{ /*sadece ilk satır için uygulma*/
+    font-weight: bold; /*stringi bold yapma*/
+    color: red;
+    word-spacing: 2px; 
+    letter-spacing: 1px;
+}
+p.about::first-line{
+    background-color: aquamarine;
+}
+p::first-letter{ /*paragrafın ilk harfi*/
+    font-size: 48px;
+}
+p::after{/*p etiketinin sonuna eleman ekler ve css uygulanır*/
+    content: "-deneme";
+    display: block;
+    background-color: royalblue;
+    padding: 10px;
+}
+
+
+/*pseudo class (:)*/
+ul li:first-child{ /*listenin ilk elemanına uygulamak*/
+    background-color: aqua;
+}
+ul li{ /*tüm elemanlara css uygulama*/
+    padding: 10px;
+}
+ul li:last-child{ /*listenin son elemanına uyglama*/
+    background-color: antiquewhite;
+}
+ul li:nth-of-type(even){ /*her bir çift elemana uygulama*/
+    border: 1px solid red;
+}
+ul li:nth-of-type(odd){ /*her bir tek elemana css uygulma*/
+    background-color: aliceblue;
+}
+
+a{
+    display: block;
+    padding: 5px 8px;
+    text-decoration: none;
+    width: 80px;
+    border: 1px solid red;
+    margin: 5px;
+}
+a:link{
+    color: red;
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: white;
+    background-color: green;
+}
+a:active{
+    color: gray;
+    border-color: gold;
+}
+span{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover span{ /*div üzerine gelindigi zaman span etiketine bir css uygulamak için kullanılır*/
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

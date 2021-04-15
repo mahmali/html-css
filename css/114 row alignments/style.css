@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: antiquewhite;
+    padding: 15px;
+    
+   flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    height: 1000px;
+    
+    //align-content: flex-start;
+    //align-content: flex-end;
+    //align-content: flex-strech;
+    //align-content: center;
+    //align-content: space-between;
+    //align-content: space-around;
+    align-content: space-evenly;
+}
+.item{
+    margin: 10px;
+    padding: 40px;    
+    background-color: aqua;
+    font-size: 20px;
+  
+}
+.i8{
+    flex: 1;
+}

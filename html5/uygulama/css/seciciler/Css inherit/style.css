@@ -1,0 +1,30 @@
+body{
+    color: red;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+ul{
+    color: mediumvioletred;
+}
+li{
+    color: aqua;
+}
+.orange{ /*class larda kullanılır*/
+    color: orange;
+}
+.blue{
+    color: blue !important; /*tüm css leri ezip kendi css lerini uygulamak için kullanılır*/
+}
+#pasif{  /*id li kullanımlarda kullanılır*/
+    color: gray;
+}
+a{  /*genel uyglanan css i uygular yoksa herhangi bir css uygulanmaz*/
+    color: inherit;
+}
+span{
+    color: royalblue;
+    border: 1px solid blue;
+}
+#inherit span{
+    color: inherit;
+}

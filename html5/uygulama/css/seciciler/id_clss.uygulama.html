@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>uygulma</title>
+    <style>
+        .box{
+            width: 300px;
+            height: 200px;
+            border: 1px solid red;
+            display: inline-block;/*kutuların yan yana gelebilmesi için gerek kullanılır. ama block yazmassa kutulara yükseklik ve genişlik veremezsin*/
+        }
+        #bir{
+            background-color: blue;
+        }
+        #iki{
+            background-color: aqua;
+        }
+        #üc{
+          background-color: darkred;  
+        }
+        #header{
+            height: 150px;
+            border: 1px solid blue;
+            
+        }
+        .red{
+            background-color: red;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .orange{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+   <div id="header" class="orange">Game Header</div>
+   <div id="bir" class="box">Box #1</div>
+   <div id="iki" class="box">Box #2</div>
+   <div id="üc" class="box orange"> Box #3</div>
+    
+</body>
+</html>

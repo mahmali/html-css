@@ -1,0 +1,102 @@
+body{
+    font-size: 14px;
+    background-color: aqua;
+}
+h1{
+    border:1px solid gray;
+    padding: 5px; /*yazı ile çerçeve arasına konan mesafe*/
+}
+h2{
+    color: red;
+}
+h2.active{
+    border: 2px solid red;
+}
+p#paragraf{
+    font-weight: bold;
+    color: blue;
+}
+div h3{
+    background-color: yellow;
+}
+/*h1 etiketinden sonra gelen aynı seviyedeki tüm p etiketlerini arka planı sarı yapma */
+h1~p{
+    background-color: azure;
+}
+div>p{ /*divin içindeki p etiketlerin css uygulma işlemi*/
+    background-color: darksalmon;
+}
+ul li{
+    border: 1px solid red;
+    margin-top: 5px; /*her elemana üstten 5 px boşluık bırakma*/
+}
+ul li.active{
+    background-color: gold;
+}
+ul li:first-child{ /*listenin ilk elemanı*/
+    word-spacing: 5px; /*kelime aralığı*/
+}
+ul li:last-child{
+    letter-spacing:2px; /*harf aralıgı*/
+}
+ul li:nth-child(odd){ /*listedeki tek elemanlara css uygulama*/
+    font-weight: bold;
+    background-color: gray;
+}
+ul li:nth-child(even){
+    color: orange;
+    font-weight: 100;
+}
+input[type="text"],input[type="password"]{
+    width: 100%;
+    padding: 12px 20px; /*kutu içindeki üstten ve alttan bırakılan boşluk*/
+    margin: 8px 0px; /*üstten alttan bırakılan boşluk*/
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border: none;
+    color: red; /*yazı rengi*/
+    border-radius: 5px;
+    cursor: pointer;/*fare üzerine geldigi zaman el işaretinde görünmesi*/
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: white;;
+}
+input[type="text"]:focus{ /*inputta yazı yazma kısmına gelice yapılacak olan css kodları*/
+    background-color: coral;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

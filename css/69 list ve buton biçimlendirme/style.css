@@ -1,0 +1,70 @@
+a {
+    color: green;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 18px;
+    margin-left: 0px;
+    margin-right: 1px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+.btn-block{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn-xsmall {
+    padding: 8px 15px;
+    font-size: 12px;
+}
+
+.btn-small {
+    padding: 10px 22px;
+    font-size: 14px;
+}
+
+.btn-medium {
+    padding: 12px 26px;
+    font-size: 16px;
+}
+
+.btn-large {
+    padding: 16px 30px;
+    font-size: 16px;
+}
+
+.primary {
+    background-color: beige;
+    color: black;
+}
+
+.secondary {
+    background-color: deeppink;
+    color: white;
+}
+
+.succes {
+    background-color: aqua;
+}
+
+.danger {
+    background-color: cadetblue;
+}
+
+.warning {
+    background-color: darkseagreen;
+}
+.rounded{
+    border-radius: 25%;
+    margin-top: 10px;
+}

@@ -1,0 +1,11 @@
+#section1{
+    color:chocolate;
+    background-color: bisque;
+    width: 250px;
+    height: 150px;
+    overflow: scroll;
+}
+#section2{
+    background-color:aquamarine;
+    width: 50%;
+}

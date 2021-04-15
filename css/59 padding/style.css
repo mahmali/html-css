@@ -1,0 +1,22 @@
+*{margin: 0;}
+.box {
+    width: 400px;
+}
+
+
+#first {
+    background-color: antiquewhite;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+#second {
+    background-color: aqua;
+    padding-top: 10px;
+}
+span{
+    background-color: red;
+    margin-left: 20px;
+    padding: 10px;
+    
+}

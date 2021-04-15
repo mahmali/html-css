@@ -1,0 +1,29 @@
+.box{
+    height: 150px;
+    width: 150px;
+    float: left;
+    margin-left: 10px;
+}
+#first{
+    background-color: red;
+    margin-top: 10px;
+}
+#second{
+    background-color: aqua;
+    position: relative;
+    margin-top: 20px;
+    
+}
+#third{
+    background-color: antiquewhite;
+    margin-top: 30px;
+}
+body{
+    margin: 0;
+}
+span{
+    background-color: antiquewhite;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+}

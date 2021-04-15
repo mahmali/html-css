@@ -1,0 +1,23 @@
+.media{
+    display: flex;
+    align-items: flex-start;
+    background-color: antiquewhite;
+    padding: 15px;
+    max-width: 500px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.media-object{
+    width: 100px;
+    margin-right: 15px;
+}
+.media-heading{
+    margin: 0 0 10px;
+}
+.img-right{
+    
+    order: 1;
+}
+.media1{
+    margin: 0;
+}

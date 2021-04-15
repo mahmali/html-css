@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 15px;
+}
+
+body {
+    font-size: font-family: 'Poppins', sans-serif;
+    font-size: 1.6 rem;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    padding: rem 1.6rem 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+
+}
+
+/*header*/
+header {
+    height: 40rem;
+
+}
+
+header .bg-image {
+    position: absolute;
+    background-image: url(img/4.jpg);
+    height: 40rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+header h1 {
+    padding: 11rem;
+    padding-bottom: 0;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    border: 1px solid #666;
+    padding: .8rem 2.2rem;
+    margin: .5rem 0;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #eaeaea;
+    color: #333;
+    transition: all 0.5s;
+}
+
+/*section a*/
+#section-a {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 3.0rem 0;
+}
+
+/*section b*/
+#section-b {
+    padding: 2rem;
+}
+
+#section-b ul {
+    list-style: none;
+}
+
+#section-b li {
+    background: #fff;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/*section c*/
+#section-c {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+}
+
+/*section d*/
+
+#section-d .box:first-child {
+    background-color: #2690d4;
+}
+
+#section-d .box {
+    padding: 5rem;
+}
+
+/*footer*/
+footer {
+    padding: 4rem;
+    background: #000;
+}
+
+footer a {
+    color: #2690d4;
+}
+
+@media screen and (min-width:700px) {
+    #section-b li {
+        width: 27%;
+        margin: 1%;
+        display: inline-block;
+    }
+
+    .box {
+        width: 50%;
+        float: left;
+    }
+
+    html {
+        font-size: 20px;
+    }
+}

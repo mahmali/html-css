@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formlar</title>
+</head>
+
+<body>
+    <form action="/Home/Register">
+
+        <p>
+            Ad: <input type="text" name="Ad" required placeholder="Adınızı Giriniz">
+        </p>
+        <p>
+            Soyad: <input type="text" name="Soyad" required placeholder="Soyadınızı giriniz">
+        </p>
+        <p>
+            Beni Hatırla: <input type=checkbox name="Beni Hatırla">
+        </p>
+        <p>
+            E posra: <input type=email name="Mail">
+        </p>
+        <p>
+            Erkek: <input type=radio name="cinsiyet">
+            Kadın: <input type=radio name="cinsiyet">
+        </p>
+        <p>
+            Hobiler: <br>
+            Sinema:<input type=checkbox name="hobi">
+            Sipor:<input type=checkbox name="hobi">
+            Kitap Okumak:<input type=checkbox name="hobi">
+        </p>
+        <p>
+            Yaşadığınız memleketi seçiniz:
+            <select name="sehirler" id="">
+                <option value="">Akara</option>
+                <option value="">Maraş</option>
+                <option value="">Afşin</option>
+                <option value="">Isparta</option>
+            </select>
+        </p>
+        <p>
+            Yaşadığınız memleketi seçiniz:
+            <select name="sehirler" id="" multiple>
+                <option value="">Akara</option>
+                <option value="">Maraş</option>
+                <option value="">Afşin</option>
+                <option value="">Isparta</option>
+            </select>
+        </p>
+
+        Tarih: <input type=date> <br>
+
+        <input type=submit value="Kaydet">
+        <input type=reset value="Sıfırla">
+
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+}
+input[type="text"],textarea,select{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 7px 12px;
+    border: 1px solid red;
+    border-radius: 4px;
+}
+.form-group{
+    margin-bottom: 5px;
+}
+label{
+    display: inline-block;
+    margin-bottom:4px;  
+}
+.form:focus{
+    border-color: #80bdff;
+    color: aqua;
+    outline: 0;
+}
+.btn{
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: darkgreen;
+    color: white;
+    border-color: 1px solid aqua;
+    margin: 2px;
+}
+.btn:hover{
+   opacity: 0.8;
+}
+.col-25{
+    float: left;
+    width: 25%;
+}
+.col-75{
+    float: left;
+    width: 75%;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#form2{
+    background-color: floralwhite;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+.btn-css{
+    
+}
+.is-succes{
+    border-color: green;
+}
+.is-error{
+    border-color: aqua;
+}
+.is-warning{
+    border-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

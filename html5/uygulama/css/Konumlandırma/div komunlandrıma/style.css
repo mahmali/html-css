@@ -1,0 +1,25 @@
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+}
+
+#first {
+    background-color: red;
+    float: left;
+}
+
+#second {
+    background-color: blue;
+    float: left;
+}
+
+#third {
+    background-color: aqua;
+    float: left;
+}
+
+#container {
+    background-color: gray;
+
+}

@@ -1,0 +1,31 @@
+p[title]{
+    border: 1px solid blue;
+    padding: 5px;
+}
+p[title="bir"]{
+    border: 2px solid red;
+    background-color: antiquewhite;
+}
+p[title~="ikinci"]{
+    background-color: aquamarine;
+}
+a[href^=https]{ /*sadece başınsa https geçiyor ise anlamında*/
+    color:red;
+}
+a[href$="net"]{
+    color: chartreuse;
+}
+a[href="http://www.google.com/" ][target="_top"]{
+    color: yellow;
+} /*iki özellik birden verilerbilir*/
+input[type="text"]{
+    background-color: red;
+    display: block;
+}
+input[type="button"]{
+    width: 100px;
+    color: aqua;
+    background-color: #FF00FF;
+    padding: 8px 16px;
+    margin-top: 10px;
+}

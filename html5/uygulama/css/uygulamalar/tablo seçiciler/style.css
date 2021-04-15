@@ -1,0 +1,34 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-blue {
+    background-color: blue;
+    color: white;
+}
+
+.table-green th {
+    background-color: green;
+    color: white;
+}
+
+table td,
+table th {
+    border: 1px solid gray;
+    padding: 6px;
+
+}
+
+table th {
+    text-align: left;
+
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}

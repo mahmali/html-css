@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>uygulama 4</title>
+</head>
+
+<body>
+    <h1>Lütfen Formu Eksiksiz Doldurunuz</h1>
+    <hr>
+    <form action="forma girilen verilerin arka planda gidecegi yer">
+
+        <h3>Hesap Bilgileriniz</h3>
+        <p>
+            Kullanıcı Adı: <input type="text" name="UserName" placeholder="Kullanıcı Adınızı Giriniz" required>
+        </p>
+        <p>
+            E Posta: <input type=email name="Email" placeholder="E Posta Adresi Giriniz" required>
+        </p>
+        <p>
+            Parola: <input type=password name="Sifre" placeholder="Parola" required>
+        </p>
+        <h3>Kişisel Bilgileriniz Giriniz</h3>
+        <p>
+            Ad: <input type="text" name="Ad"> <br><br>
+            Soyad: <input type="text" name="Soyad">
+        </p>
+        <p>
+            Şehir:
+            <select name="Sehir" id="">
+                <option value="">Seçiniz</option>
+                <option value="">Ankara</option>
+                <option value="">Malatya</option>
+                <option value="">Sivas</option>
+                <option value="">Hatay</option>
+            </select>
+        </p>
+        <p>
+           Cinsiyet:
+            Kadın:<input type="radio" name="cinsiyet">
+            Erkek:<input type="radio" name="cinsiyet">
+
+        </p>
+        <p>
+            Hobileriniz:
+            Sinema <input type=checkbox name="hobi">
+            Gezmek <input type=checkbox name="hobi">
+            Spor <input type=checkbox name="hobi">
+            Kitap <input type=checkbox name="hobi">
+        </p>
+
+
+        <input type=submit value="Keydet">
+        <input type=reset value="Sıfırla">
+    </form>
+
+</body>
+
+</html>

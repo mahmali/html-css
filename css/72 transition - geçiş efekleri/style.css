@@ -1,0 +1,30 @@
+.card{
+    width: 150px;
+    height: 150px;
+    background: blue;
+    transition: width 2s, height 2s, background 2s;
+    margin: 1px;
+    transition-delay: 1s;
+}
+.card:hover{
+    width: 250px;
+    background: aqua;
+}
+#card1{
+    transition-timing-function: ease;
+}
+#card2{
+    transition-timing-function: linear;
+}
+#card3{
+    transition-timing-function: ease-in;
+}
+#card4{
+    transition-timing-function: ease-out;
+}
+#card5{
+    transition-timing-function: ease-in-out;
+}
+#card6{
+    
+}
